@@ -1,0 +1,11 @@
+**Adverse Reactions Associated With [[Glucocorticoids]]**
+- Fluid and electrolyte disturbances: Sodium and fluid retention, potassium loss, hypokalemic alkalosis, hypertension, hypocalcemia, hypotension, or shocklike reactions. 
+- Musculoskeletal disturbances: Muscle weakness, loss of muscle mass, tendon rupture, osteoporosis, aseptic necrosis of femoral and humeral heads, and spontaneous fractures. 
+- Cardiovascular disturbances: Thromboembolism or fat embolism; [[Thrombophlebitis]]; necrotizing angiitis; syncopal episodes; cardiac arrhythmias; aggravation of hypertension; fatal cardiac arrhythmias with rapid, high-dose IV [[methylprednisolone]] administration; and HF in susceptible clients. 
+- GI disturbances: Pancreatitis, abdominal distention, ulcerative esophagitis, nausea, vomiting, increased appetite and weight gain, possible peptic ulcer or bowel perforation, and hemorrhage. 
+- Dermatologic disturbances: Impaired wound healing; thin, fragile skin; petechiae; ecchymoses; erythema; increased sweating; suppression of skin test reactions; subcut fat atrophy; purpura; striae; [[Hirsutism]]; acneiform eruptions; [[urticaria]]; angioneurotic edema; and perineal itch. 
+- Neurologic disturbances: Convulsions, increased intracranial pressure with papilledema (usually after treatment is discontinued), vertigo, headache, neuritis or paresthesia, steroid psychosis, and insomnia. 
+- Endocrine disturbances: Amenorrhea, other menstrual irregularities, development of cushingoid state, suppression of growth in children, secondary adrenocortical and pituitary unresponsive (particularly in times of stress), decreased carbohydrate tolerance, manifestation of latent diabetes mellitus, and increased requirements for insulin or oral hypoglycemic agents (in diabetic clients). 
+- Ophthalmic disturbances: Posterior subcapsular cataracts, increased intraocular pressure, glaucoma, and exophthalmos. 
+- Metabolic disturbances: Negative nitrogen balance (caused by protein catabolism). 
+- Other disturbances: Anaphylactoid or [[hypersensitivity reactions]], aggravation of existing infections, malaise, and increase or decrease in sperm motility and number.

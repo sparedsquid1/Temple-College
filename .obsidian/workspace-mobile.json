@@ -1,0 +1,310 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Boxes/Temple College Nursing Program/LVN Program/LVN Program.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "LVN Program"
+            }
+          },
+          {
+            "id": "7ca590bb2295ebe8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chronic intrauterine hypoxia.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "chronic intrauterine hypoxia"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84d7c0da7364da58",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b4832cc9852614da",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "2f85358a6019cd38",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:#A",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "bb89ec7082e56905",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "5730e053c2c00789",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
+        }
+      },
+      {
+        "id": "fd8f922d0670de2d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "dfa11b5c3ffc66c7",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "7f48d5e2c6214a34",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
+        }
+      },
+      {
+        "id": "296c58d55fc1b5f6",
+        "type": "leaf",
+        "state": {
+          "type": "file-tree-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "a103a9192d38207b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "847ba6a8779ad199",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/atorvastatin.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "419af3dad502a468",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/atorvastatin.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "455e744a74ea0141",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "chronic intrauterine hypoxia.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "79eff641136bf8ca",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      },
+      {
+        "id": "12e856ed5eff88b3",
+        "type": "leaf",
+        "state": {
+          "type": "FANTASY_CALENDAR",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
+        }
+      },
+      {
+        "id": "8989872dcbad4b05",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "SpacedRepIcon",
+          "title": "Notes Review Queue"
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "voice:Voice": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "cmdr:Templater: Create new note from template": false,
+      "cmdr:Omnisearch: Vault search": false,
+      "obsidian-dangling-links:Show dangling links panel": false,
+      "handwritten-notes:Create empty handwritten note": false,
+      "cmdr:Google Calendar: Open gCal week view": false,
+      "omnisearch:Omnisearch": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "homepage:Open homepage": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "templater-obsidian:Templater": false,
+      "pomodoro-widget:Toggle pomodoro widget.": false
+    }
+  },
+  "active": "7ca590bb2295ebe8",
+  "lastOpenFiles": [
+    "Boxes/Temple College Nursing Program/LVN Program/LVN Program.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Pharmacology.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Final study guide AI.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/cefazolin.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/theophylline.md",
+    "Clean Up/Stevens–Johnson syndrome.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/nitrofurantoin.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/bisacodyl.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/loperamide.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/meperidine.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/alendronate.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/ceftriaxone.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/digoxin.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/warfarin.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/protamine.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/verapamil.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/cholestyramine.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/oxymetazoline.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/dextromethorphan.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Pharmacology Quizzes Test Assignments.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/methotrexate.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drug Classes/SubClasses/Disease-modifying antirheumatic drugs (DMARDs).md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/OB/MOD I.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/OB/Final.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/atorvastatin.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drug Classes/SubClasses/HMG-CoA reductase inhibitors (statins).md",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/Patient-centered fall prevention Dykes.pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Basic Nursing Skills/Documents/Module 1/Module 1 Exam Blueprint.pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/Patient-centered fall prevention.pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/Patient-centered fall preention Dykes.pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Basic Nursing Skills/Documents/Module 1/VN-Combined Vital Signs and Client Assessment Checkoff.pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Nursing Bundle..pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/FC Insertion Checkoff Sheet.pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/FC Removal Checkoff Sheet.pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Basic Nursing Skills/Documents/Mobility Chapter 18 NQ.pdf",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Basic Nursing Skills/Documents/Module 2/Module 2 Student Test Blueprint.pdf",
+    "Boxes/Temple College Nursing Program/Pre & Co Reqs/Spring 23/A&P I 2401/Muscular System/Page 2.png",
+    "Boxes/Temple College Nursing Program/Pre & Co Reqs/Spring 23/A&P I 2401/Muscular System/Page 1.png",
+    "Boxes/Temple College Nursing Program/Pre & Co Reqs/Spring 23/A&P I 2401/Images/Inferior image of skull.jpg",
+    "Boxes/Temple College Nursing Program/Pre & Co Reqs/Spring 23/Rabbit hole/PosteriorForearmSuperficial_Watermarked.jpg",
+    "Boxes/Temple College Nursing Program/Pre & Co Reqs/Spring 23/Rabbit hole/1_semimembranosus-470x550.webp",
+    "Boxes/Temple College Nursing Program/Pre & Co Reqs/Spring 23/General Psychology 2301/maslow-5.webp",
+    "Boxes/Temple College Nursing Program/Pre & Co Reqs/Spring 23/General Psychology 2301/Maslow's_Hierarchy_of_Needs.svg.png",
+    "Boxes/Temple College Nursing Program/Pre & Co Reqs/Spring 23/General Psychology 2301/Common attributional biases and explanatory patterns.png",
+    "Boxes/Temple College Nursing Program/Summer 23/Images/Digestive/How poop is made.png",
+    "Boxes/Temple College Nursing Program/Summer 23/Images/Digestive/Gotta poop(reflex).png"
+  ]
+}

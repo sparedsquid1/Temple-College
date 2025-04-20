@@ -1,0 +1,1 @@
+ If older adult is experiencing suicidal thoughts... • They are more likely to act on them successfully!

@@ -1,0 +1,1 @@
+Cushing's triad is a set of three clinical signs indicating increased intracranial pressure (ICP): bradycardia (slow heart rate), irregular respiration, and widened pulse pressure. It often signals a medical emergency that requires immediate attention to prevent serious complications, including brain herniation or death.

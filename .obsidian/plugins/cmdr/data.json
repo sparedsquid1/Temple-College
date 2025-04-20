@@ -1,0 +1,159 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "obsidian-text-format:lowercase",
+      "icon": "case-sensitive",
+      "name": "Text Format: Lowercase",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-wordnet-plugin:open-wordnet-suggestor",
+      "icon": "lucide-search",
+      "name": "WordNet Dictionary: Look up a word",
+      "mode": "any"
+    },
+    {
+      "id": "editor:fold-all",
+      "icon": "lucide-minimize-2",
+      "name": "Fold all headings and lists",
+      "mode": "any"
+    },
+    {
+      "id": "editor:toggle-fold",
+      "icon": "lucide-diff",
+      "name": "Toggle fold on the current line",
+      "mode": "any"
+    },
+    {
+      "id": "editor:unfold-all",
+      "icon": "lucide-maximize-2",
+      "name": "Unfold all headings and lists",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-text-format:slugify",
+      "icon": "case-sensitive",
+      "name": "Text Format: Slugify selected text (`-` for space)",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-text-format:camel-case-upper",
+      "icon": "case-sensitive",
+      "name": "Text Format: CamelCase selected text",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-text-format:title-case",
+      "icon": "case-sensitive",
+      "name": "Text Format: Title-case",
+      "mode": "any"
+    },
+    {
+      "id": "unicode-search:search-unicode-chars",
+      "icon": "aperture",
+      "name": "Unicode Search: Search Unicode characters",
+      "mode": "any"
+    },
+    {
+      "id": "voice:play-audio",
+      "icon": "lucide-air-vent",
+      "name": "Voice: Start reading the current document.",
+      "mode": "any"
+    },
+    {
+      "id": "surfing:usingGoogle-to-search",
+      "icon": "lucide-search",
+      "name": "Surfing: Using Google to search",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "workspace:split-vertical",
+      "icon": "lucide-separator-vertical",
+      "name": "Split right",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:split-vertical",
+      "icon": "lucide-separator-vertical",
+      "name": "Split right",
+      "mode": "any"
+    },
+    {
+      "id": "copilot:chat-toggle-window-note-area",
+      "icon": "binary",
+      "name": "Copilot: Toggle Copilot Chat Window in Note Area",
+      "mode": "any"
+    },
+    {
+      "id": "homepage:open-homepage",
+      "icon": "home",
+      "name": "Homepage: Open homepage",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "google-calendar:open-google-calendar-week-view",
+      "icon": "calendar",
+      "name": "Google Calendar: Open gCal week view",
+      "mode": "any",
+      "color": "#1aa21d"
+    },
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any",
+      "color": "#2acb5a"
+    },
+    {
+      "id": "omnisearch:show-modal",
+      "icon": "lucide-search",
+      "name": "Omnisearch: Vault search",
+      "mode": "any",
+      "color": "#f31616"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "omnisearch:show-modal",
+      "icon": "lucide-search",
+      "name": "Omnisearch: Vault search",
+      "mode": "any",
+      "color": "#f40b0b"
+    }
+  ],
+  "macros": [],
+  "explorer": [
+    {
+      "id": "omnisearch:show-modal",
+      "icon": "lucide-search",
+      "name": "Omnisearch: Vault search",
+      "mode": "any",
+      "color": "#f40b0b"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

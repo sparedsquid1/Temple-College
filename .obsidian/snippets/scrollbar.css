@@ -1,0 +1,11 @@
+/* Scrollbar /
+/ change width */
+::-webkit-scrollbar {
+::background: green !important;
+width:8px !important;
+}
+::-webkit-scrollbar-thumb {
+    background: cornflowerblue !important;
+}
+
+

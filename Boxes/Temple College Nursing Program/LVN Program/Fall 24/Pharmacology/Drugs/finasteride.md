@@ -1,0 +1,61 @@
+---
+DrugClass: "[[Menopause and Andropause Drugs]]"
+SubClass: "[[Drugs to treat BPH]]"
+DrugClassAdverse: "[[Drugs to treat BPH#Adverse Reactions]]"
+DrugClassContra: "[[Drugs to treat BPH#Contraindications]]"
+BrandName: Propecia, Proscar
+SecondaryDrugClass: 
+SecondarySubClass: 
+SecondaryAdverse: 
+SecondaryContra: 
+ThirdDrugClass: 
+ThirdSubClass: 
+ThirdAdverse: 
+ThirdContra: 
+FourthDrugClass: 
+FourthSubClass: 
+FourthAdverse: 
+FourthContra: 
+Chapter: "45"
+KindleLinkChap: "[Chapter 45](kindle://book?action=open&asin=B09FRF11YJ&location=26138)"
+KindleLink: 
+tags:
+  - Drug
+  - Pharmacology
+Course: Pharmacology
+ChemLink: https://pubchem.ncbi.nlm.nih.gov/#query=
+aliases: 
+SubCat: Androgen Hormone Inhibitors
+---
+```smiles
+C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2C(=O)NC(C)(C)C)CC[C@@H]4[C@@]3(C=CC(=O)N4)C
+```
+
+### Brand name
+`=this.BrandName`
+
+### Generic name
+`= this.file.name`
+
+### Drug class 
+`= this.DrugClass`
+	`= this.DrugClass.KindleLinkChap`
+
+### Dosage & Usage
+Male-pattern baldness, [[BPH]]
+1– 5 mg/ day orally
+
+### Contraindications
+See `= this.DrugClassContra`
+
+### Mechanisms of Action
+
+
+### Side/Adverse Effects
+See `= this.DrugClassAdverse`
+Impotence, decreased libido, [[asthenia]], dizziness, postural hypotension
+
+### Interactions
+
+`= this.ChemLink+this.file.name`
+

@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"d6ee872afddc8453","type":"group","x":-560,"y":-243,"width":1030,"height":603,"label":"Drug"},
+		{"id":"0219ffa9ef9298b9","type":"text","text":"Drug Class:\nNonsalicylate","x":160,"y":-223,"width":290,"height":60},
+		{"id":"5f4c131f8f3f0ffe","type":"text","text":"Mechanisms of Action\n\nUnknown ","x":-65,"y":-120,"width":515,"height":231},
+		{"id":"1e4bc17a1184282c","type":"text","text":"Interactions\n\nBarbiturates Sedation, central nervous system depressants Increased possibility of toxicity and decreased effect of acetaminophen Hydantoins Anticonvulsants Increased possibility of toxicity and decreased effect of acetaminophen Isoniazid and rifampin Tuberculosis medications Increased possibility of toxicity and decreased effect of acetaminophen Loop diuretics Control of fluid imbalance Decreased effectiveness of the diuretic","x":100,"y":150,"width":350,"height":190},
+		{"id":"1e83cf6a9ec09e17","type":"text","text":"Brand Name:\nTylenol","x":-190,"y":-223,"width":266,"height":60},
+		{"id":"aa8025fd9530497e","type":"text","text":"Generic Name:\nacetaminophen","x":-520,"y":-223,"width":250,"height":60},
+		{"id":"99487325bf81e994","type":"text","text":"Dosage & Indications\n\n325– 650   mg/ day orally q 4– 6 hr; maximum dose, 3   g/ day\n\nAnalgesic, antipyretic\n\n\n\n\n\n\n\n\n\n\n","x":-520,"y":-120,"width":455,"height":231},
+		{"id":"d9cda1e65c045f9a","type":"text","text":"Side/adverse Effects\n\nRare when used as directed; skin eruptions, urticaria, hemolytic anemia, pancytopenia, jaundice, hepatotoxicity","x":-520,"y":150,"width":300,"height":190},
+		{"id":"f40c8db6e45c1f9b","type":"text","text":"Contraindications","x":-220,"y":150,"width":320,"height":190}
+	],
+	"edges":[]
+}

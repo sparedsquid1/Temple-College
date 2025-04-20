@@ -1,0 +1,1 @@
+the inability to perform a voluntary muscle movement that can be clinically observed

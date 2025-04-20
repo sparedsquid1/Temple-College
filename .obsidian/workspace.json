@@ -1,0 +1,304 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Boxes/Temple College Nursing Program/LVN Program/LVN Program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "LVN Program"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9fff9005630ae18",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b653ab574a885d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "666fd508ed4e2e3a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ebc6a1f3fc540dd2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Hib",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "675369296137021b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "58b05170669cf43b",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
+          },
+          {
+            "id": "c10b5027e312421b",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 464.5
+  },
+  "right": {
+    "id": "0613833542eaaca6",
+    "type": "split",
+    "children": [
+      {
+        "id": "55494f70a3a5ba22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "523a8cfa00f8c04d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4bdd75ec0d24107e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d101ec6b2fda8fca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "36d83e629c737806",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Med-Surg III/Documents/Module I - Endocrine Disorders/Lecture Notes/Chapter 39 Notes with NCLEX.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Chapter 39 Notes with NCLEX"
+            }
+          },
+          {
+            "id": "0d4836a950843b3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "82c8d010cb79945c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "709bb48af5d82aea",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "59a6fbc7fec172ce",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
+      "homepage:Open homepage": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "templater-obsidian:Templater": false,
+      "cmdr:Google Calendar: Open gCal week view": false,
+      "cmdr:Templater: Create new note from template": false,
+      "cmdr:Omnisearch: Vault search": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-dangling-links:Show dangling links panel": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "print:Print note": false,
+      "obisidian-note-linker:Note Linker": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-git:Open Git source control": false,
+      "pomodoro-widget:Toggle pomodoro widget.": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/SP2025 Pediatrics (VNSG-1234-1001) LEC 16-weeks - 352025 - 1230 PM.zip",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod I/SP2025 Pediatrics (VNSG-1234-1001) LEC 16-weeks - 1142025 - 1031 AM.zip",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Course Outline/SP2025 Pediatrics (VNSG-1234-1001) LEC 16-weeks - 1142025 - 1029 AM.zip",
+    "Boxes/Wallpapers/Brain 0.jpg",
+    "Boxes/Temple College Nursing Program/LVN Program/LVN Program.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/KEY Dosage Calculation Assignment Practice.docx",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/Example of assignment Word Format.docx",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/Dosage Calculation Assignment #2.docx",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/Dosage Calculation Assignment #1.docx",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/2023 VNSG 1260 Clinical Evaluation Tool.docx",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Documents/2023 VNSG 1260 Clinical Evaluation Tool  !!!!!!.docx",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Assignments/Summer 24 Nursing Process  Revised !!!!!!.docx",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training/Assignments/Nursing Article Patient-centered fall prevention.docx",
+    "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Summer 24.md",
+    "Boxes/Temple College Nursing Program/Contacts/Contacts.md",
+    "Boxes/Temple College Nursing Program/Additional Reqs/Additional Reqs.md",
+    "Boxes/Temple College Nursing Program/Temple College Nursing Program.md",
+    "Temple-College/Temple-College.md",
+    "Dashboard.md",
+    "Boxes/Temple College Nursing Program/Contacts/Audra Xenakis.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod V/Chapter 31 Summary.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod V/Chapter 29 Summary.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod V/Chapter 28 Summary.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod V/Mod V.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Pediatrics.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod V/New folder.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/New folder/New folder.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Spring 25.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Med-Surg III/Med-Surg III.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Clinicals/Clinicals.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod IV/Chapter 26 Summary.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod IV/Mod IV.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Med-Surg III/Documents/Module V - Cardiovascular Disorders/Module V - Cardiovascular Disorders.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Pediatrics.canvas",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod IV/Chapter 27 Summary.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Drugs/acetaminophen.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology/Pharmacology.md",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Leadership & Professional Dev/Leadership & Professional Dev.md",
+    "Pasted image 20250411062753.png",
+    "Pasted image 20250411062656.png",
+    "Pasted image 20250411050410.png",
+    "Boxes/Temple College Nursing Program/LVN Program/Additional Reqs/Back of BON card.jpg",
+    "Boxes/Temple College Nursing Program/LVN Program/Additional Reqs/Front of BON card.jpg",
+    "Untitled.canvas",
+    "Pediatrics.canvas",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Med-Surg III/Documents/Module IV - Neurological & Eye-Ear Disorders/Mneumonics/ICP Mneumonic.png",
+    "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Pediatric-Vaccinatons-Infographic-Landscape-1024x753-1.webp",
+    "Clean Up/Pediatrics.canvas",
+    "Clean Up/Pediatric-Vaccinatons-Infographic-Landscape-1024x753-1.webp",
+    "Pediatric-Vaccinatons-Infographic-Landscape-1024x753-1.webp"
+  ]
+}

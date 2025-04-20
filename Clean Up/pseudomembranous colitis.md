@@ -1,0 +1,5 @@
+Pseudomembranous colitis is an inflammation of the colon caused by an overgrowth of the bacterium *Clostridium difficile* (C. difficile). This condition often occurs after the use of antibiotics, which disrupt the normal balance of bacteria in the gut and allow C. difficile to proliferate. 
+
+Symptoms of pseudomembranous colitis include severe diarrhea (often with mucus or [[Blood]]), abdominal cramping, [[Fever]], and nausea. In more severe cases, it can lead to complications such as dehydration, colonic perforation, or sepsis.
+
+Diagnosis is typically based on stool tests for C. difficile toxins, and treatment generally involves specific antibiotics that target C. difficile, such as [[vancomycin]] or [[fidaxomicin]]. In some cases, probiotics or fecal microbiota transplantation may also be used to help restore the normal balance of gut bacteria.

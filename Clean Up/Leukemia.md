@@ -1,0 +1,1 @@
+**Leukemia** is a type of cancer that originates in the [[Blood]]-forming tissues, such as the bone marrow, and leads to the production of abnormal white [[Blood]] cells. These abnormal cells crowd out normal [[Blood]] cells, impairing the body's ability to fight infections, carry oxygen, and control bleeding.

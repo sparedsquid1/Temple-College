@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"ff3d1afe4862436d","type":"text","text":"- Clinicals\n\t- Rotations\n\t\t- Notes\n- Semester\n\t- Classes\n\t\t- Notes\n\t\t- Homework\n\t\t- Instructor contact\n\t\t- Grade\n- Next Steps\n\t- Requirements\n\t\t- Admission\n\t\t- NCLEX\n\t\t\t- Resources","x":-280,"y":-560,"width":340,"height":440}
+	],
+	"edges":[]
+}

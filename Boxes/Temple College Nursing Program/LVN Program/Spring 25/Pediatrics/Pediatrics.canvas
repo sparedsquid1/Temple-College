@@ -1,0 +1,756 @@
+{
+  "edges": [
+    {
+      "fromNode": "625bf5382b202d82",
+      "fromSide": "bottom",
+      "id": "40250f414aa74168",
+      "styleAttributes": {
+      },
+      "toNode": "7634dcdbc95c09ac",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7634dcdbc95c09ac",
+      "fromSide": "bottom",
+      "id": "8b27310cc1c81583",
+      "styleAttributes": {
+      },
+      "toNode": "e9ff4c38b4efab1f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e9ff4c38b4efab1f",
+      "fromSide": "bottom",
+      "id": "b4a2a33b4c6b6b54",
+      "styleAttributes": {
+      },
+      "toNode": "05d1ce96f81085de",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a7d052a72c86510a",
+      "fromSide": "bottom",
+      "id": "8101c1b59f2a0b44",
+      "styleAttributes": {
+      },
+      "toNode": "625bf5382b202d82",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "21df4cdd2a97b574",
+      "fromSide": "bottom",
+      "id": "44b0d77a93d703e0",
+      "styleAttributes": {
+      },
+      "toNode": "6d089113fce16176",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "6d089113fce16176",
+      "fromSide": "bottom",
+      "id": "c763c46188ff8b72",
+      "styleAttributes": {
+      },
+      "toNode": "7aa236b77f409f2a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7aa236b77f409f2a",
+      "fromSide": "bottom",
+      "id": "da0339030625d200",
+      "styleAttributes": {
+      },
+      "toNode": "ca468ffd66b96908",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ca468ffd66b96908",
+      "fromSide": "bottom",
+      "id": "c2873eda093e7c57",
+      "styleAttributes": {
+      },
+      "toNode": "6ccdf0bbf919f897",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4a5f242d236c3f8e",
+      "fromSide": "bottom",
+      "id": "97658aa9ff9da03b",
+      "styleAttributes": {
+      },
+      "toNode": "668da45fa9b9233b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "668da45fa9b9233b",
+      "fromSide": "bottom",
+      "id": "0785755cca9d8c89",
+      "styleAttributes": {
+      },
+      "toNode": "0077fbddec4511fe",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0077fbddec4511fe",
+      "fromSide": "bottom",
+      "id": "ef2b50ddcb3b88e7",
+      "styleAttributes": {
+      },
+      "toNode": "be6176ef34de1da9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "be6176ef34de1da9",
+      "fromSide": "bottom",
+      "id": "7fb013e63c0e01bd",
+      "styleAttributes": {
+      },
+      "toNode": "9549026be9d4704b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3ac5ce64ebd3665d",
+      "fromSide": "bottom",
+      "id": "f6f523ac5a1f26f3",
+      "styleAttributes": {
+      },
+      "toNode": "2607d512cf7a6e42",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2607d512cf7a6e42",
+      "fromSide": "bottom",
+      "id": "f0a22bf5497d88f5",
+      "styleAttributes": {
+      },
+      "toNode": "c35aefb2ece3eb9c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c35aefb2ece3eb9c",
+      "fromSide": "bottom",
+      "id": "cf678713967e2d86",
+      "styleAttributes": {
+      },
+      "toNode": "d9a47d280b3527e8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d9a47d280b3527e8",
+      "fromSide": "bottom",
+      "id": "c13e76401f4e3090",
+      "styleAttributes": {
+      },
+      "toNode": "25bd2d28f8c8e010",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b70cc0fbf4406779",
+      "fromSide": "bottom",
+      "id": "5028c86e38bab552",
+      "styleAttributes": {
+      },
+      "toNode": "2c048d0388e03a2f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2c048d0388e03a2f",
+      "fromSide": "bottom",
+      "id": "6feea1e56a6aa6d8",
+      "styleAttributes": {
+      },
+      "toNode": "a8a0024d4faac732",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a8a0024d4faac732",
+      "fromSide": "bottom",
+      "id": "a8ecfbb146f0ba4e",
+      "styleAttributes": {
+      },
+      "toNode": "4297c70e6710ed54",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "05d1ce96f81085de",
+      "fromSide": "bottom",
+      "id": "1459cd0e3c795cb3",
+      "styleAttributes": {
+      },
+      "toNode": "1bd7a85597c07ff6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "6ccdf0bbf919f897",
+      "fromSide": "bottom",
+      "id": "05666d955bb5fd72",
+      "styleAttributes": {
+      },
+      "toNode": "eb4eb5ecb0ec96f2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9549026be9d4704b",
+      "fromSide": "bottom",
+      "id": "90a923d7a1a22829",
+      "styleAttributes": {
+      },
+      "toNode": "6e454032f5fac2e3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "25bd2d28f8c8e010",
+      "fromSide": "bottom",
+      "id": "c7f8b9c643242405",
+      "styleAttributes": {
+      },
+      "toNode": "855c083c0a3de80a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4297c70e6710ed54",
+      "fromSide": "bottom",
+      "id": "63bcb487cbe56a4e",
+      "styleAttributes": {
+      },
+      "toNode": "dbce9a3979723006",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b234abb23e183c78",
+      "fromSide": "bottom",
+      "id": "05e5e6134b76a817",
+      "styleAttributes": {
+      },
+      "toNode": "b70cc0fbf4406779",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "dbce9a3979723006",
+      "fromSide": "bottom",
+      "id": "14102455e7bb6435",
+      "styleAttributes": {
+      },
+      "toNode": "77b12266b755e092",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "855c083c0a3de80a",
+      "fromSide": "bottom",
+      "id": "9706ac671bf30e49",
+      "styleAttributes": {
+      },
+      "toNode": "c3c91f7d1910aef7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "6e454032f5fac2e3",
+      "fromSide": "bottom",
+      "id": "db9b15396ed624f8",
+      "styleAttributes": {
+      },
+      "toNode": "26cac58260760733",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "eb4eb5ecb0ec96f2",
+      "fromSide": "bottom",
+      "id": "404a67bc4d2987ad",
+      "styleAttributes": {
+      },
+      "toNode": "79a2545b90c96c69",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1bd7a85597c07ff6",
+      "fromSide": "bottom",
+      "id": "618be0353f256848",
+      "styleAttributes": {
+      },
+      "toNode": "fd710f07570373e2",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 3000,
+      "id": "e9bab71421d1011d",
+      "label": "Pediatrics",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2925,
+      "x": -2000,
+      "y": -960
+    },
+    {
+      "height": 2820,
+      "id": "107fc2fa61717ede",
+      "label": "School Age Child",
+      "styleAttributes": {
+        "border": null
+      },
+      "type": "group",
+      "width": 525,
+      "x": -200,
+      "y": -870
+    },
+    {
+      "height": 2820,
+      "id": "196fdba52c2aea1a",
+      "label": "Adolescent",
+      "styleAttributes": {
+        "border": null
+      },
+      "type": "group",
+      "width": 525,
+      "x": 400,
+      "y": -870
+    },
+    {
+      "height": 2820,
+      "id": "9c728f97f20733d0",
+      "label": "Infant",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 525,
+      "x": -2000,
+      "y": -870
+    },
+    {
+      "height": 2820,
+      "id": "38f6a416116397fc",
+      "label": "Toddler",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 525,
+      "x": -1400,
+      "y": -870
+    },
+    {
+      "height": 2820,
+      "id": "62dc9447d8a2b5b1",
+      "label": "Preschool Child",
+      "styleAttributes": {
+        "border": null
+      },
+      "type": "group",
+      "width": 525,
+      "x": -800,
+      "y": -870
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "a7d052a72c86510a",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Infant: 0 - 1yr",
+      "type": "text",
+      "width": 485,
+      "x": -1980,
+      "y": -850
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "21df4cdd2a97b574",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Toddler: 1yr - 3yr",
+      "type": "text",
+      "width": 485,
+      "x": -1380,
+      "y": -850
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "3ac5ce64ebd3665d",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "The School Age Child: 6yr - 12yr",
+      "type": "text",
+      "width": 485,
+      "x": -180,
+      "y": -850
+    },
+    {
+      "file": "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod IV/Chapter 19 Summary.md",
+      "height": 400,
+      "id": "2607d512cf7a6e42",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 485,
+      "x": -180,
+      "y": -750
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "c35aefb2ece3eb9c",
+      "styleAttributes": {
+      },
+      "text": "VS: HR 85-100 Resp: 18-20 BP: 90-108/60-68",
+      "type": "text",
+      "width": 485,
+      "x": -180,
+      "y": -310
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "4a5f242d236c3f8e",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "The Preschool Child: 2yr - 5yr",
+      "type": "text",
+      "width": 485,
+      "x": -780,
+      "y": -850
+    },
+    {
+      "color": "6",
+      "height": 505,
+      "id": "6e454032f5fac2e3",
+      "styleAttributes": {
+      },
+      "text": "Milestones:\n- Development of a cooperative- type play\n- Control of body functions \n- Acceptance of separation \n- Increase in communication skills \n- Memory \n- Attention span 2-5min/yr of age\n- [[Chapter 18 NQ.pdf#page=3&selection=6,0,6,11|Physical Development]]\n- [[Chapter 18 NQ.pdf#page=4&selection=17,0,19,9|Cognitive Development]]\n- [[Chapter 18 NQ.pdf#page=5&selection=20,0,20,11|Language Development]]\n- [[Chapter 18 NQ.pdf#page=6&selection=15,1,16,11|Play Development]]\n- [[Chapter 18 NQ.pdf#page=7&selection=5,1,6,5|Spiritual Development]]\n- [[Chapter 18 NQ.pdf#page=9&selection=0,9,6,2|3yr old]]\n- [[Chapter 18 NQ.pdf#page=10&selection=4,0,4,2|4yr old]]\n- [[Chapter 18 NQ.pdf#page=11&selection=30,0,30,2|5yr old]]\n\n",
+      "type": "text",
+      "width": 485,
+      "x": -780,
+      "y": 755
+    },
+    {
+      "height": 360,
+      "id": "26cac58260760733",
+      "styleAttributes": {
+      },
+      "text": "Challenges:\n- Articulation disorder \n- Expressive language delay \n- Global language delay \n- Language disorder \n- Language loss\n- Cannot understand abstract concepts \n- In the hospitalized preschooler, observing religious traditions practiced in the home may be calming for the child\n- Jealousy\n- Thumb sucking",
+      "type": "text",
+      "width": 485,
+      "x": -780,
+      "y": 1300
+    },
+    {
+      "file": "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/Chapter 18 Summary.md",
+      "height": 400,
+      "id": "668da45fa9b9233b",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 485,
+      "x": -780,
+      "y": -750
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "0077fbddec4511fe",
+      "styleAttributes": {
+      },
+      "text": "VS: HR 90-110 Resp: 20 BP: 85-90/60",
+      "type": "text",
+      "width": 485,
+      "x": -780,
+      "y": -310
+    },
+    {
+      "height": 440,
+      "id": "9549026be9d4704b",
+      "styleAttributes": {
+      },
+      "text": "Development Theories:\n- Erikson’s • Initiative vs guilt • \n- Piaget Preoperational Phase \n\t- Preconceptual stage \n\t\t- 2 to 4-year-old child \n\t- Intuitive thought \n\t- 5 to 7-year-old",
+      "type": "text",
+      "width": 485,
+      "x": -780,
+      "y": 270
+    },
+    {
+      "color": "2",
+      "height": 420,
+      "id": "ca468ffd66b96908",
+      "styleAttributes": {
+      },
+      "text": "Immunizations:\n[[Pediatric-Vaccinatons-Infographic-Landscape-1024x753-1.webp|Picmonic]]\n\n| 1Y    |\n| :---- |\n| VZ    |\n| MMR   |\n| Hep A |\n| DTaP  |\n| HiB   |\n| IPV   |\n| PCV   |\n",
+      "type": "text",
+      "width": 485,
+      "x": -1380,
+      "y": -210
+    },
+    {
+      "color": "2",
+      "height": 420,
+      "id": "be6176ef34de1da9",
+      "styleAttributes": {
+      },
+      "text": "Immunizations:\n[[Pediatric-Vaccinatons-Infographic-Landscape-1024x753-1.webp|Picmonic]]\n\n| 4Y-6Y |\n| ----- |\n| VZ    |\n| DTaP  |\n| IPV   |\n| MMR   |\n",
+      "type": "text",
+      "width": 485,
+      "x": -780,
+      "y": -210
+    },
+    {
+      "height": 440,
+      "id": "6ccdf0bbf919f897",
+      "styleAttributes": {
+      },
+      "text": "Development Theories:\n- Erikson’s stage of autonomy versus shame and doubt • Negativism • Ritualism\n- Piaget’s sensorimotor and pre- conceptual phase of development emerges rapidly in this age group",
+      "type": "text",
+      "width": 485,
+      "x": -1380,
+      "y": 270
+    },
+    {
+      "color": "6",
+      "height": 520,
+      "id": "eb4eb5ecb0ec96f2",
+      "styleAttributes": {
+      },
+      "text": "Milestones:\n- Birthweight quadruples by 2.5 years of age\n- Gains 4-6 lbs per year (1.8-2.7 kg) and 4 inches (10 cm) per year in height\n- [[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/Chapter 17 NQ.pdf#page=4&selection=4,0,8,6|Months 12-16]]\n- [[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/Chapter 17 NQ.pdf#page=4&selection=48,0,52,6|Months 16-18]]\n- [[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/Chapter 17 NQ.pdf#page=5&selection=4,0,6,6|Month 24]]\n- [[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/Chapter 17 NQ.pdf#page=5&selection=54,0,56,6|Month 36]]\n- [[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/Chapter 17 NQ.pdf#page=6&selection=4,0,6,11|Speech & Lang Toddler]]\n- Bowel and bladder control usually complete by 2.5 to 3 years of age",
+      "type": "text",
+      "width": 485,
+      "x": -1380,
+      "y": 740
+    },
+    {
+      "height": 440,
+      "id": "25bd2d28f8c8e010",
+      "styleAttributes": {
+        "shape": null
+      },
+      "text": "Development Theories:\n- Erikson: stage of industry \n\t- Engaged in tasks and participates in organized activities \n- Freud: sexual latency \n- Piaget: concrete operations",
+      "type": "text",
+      "width": 485,
+      "x": -180,
+      "y": 270
+    },
+    {
+      "height": 360,
+      "id": "c3c91f7d1910aef7",
+      "styleAttributes": {
+      },
+      "text": "Challenges:\n- Anticipate regression\n- Obesity prevention",
+      "type": "text",
+      "width": 485,
+      "x": -180,
+      "y": 1300
+    },
+    {
+      "color": "6",
+      "height": 505,
+      "id": "855c083c0a3de80a",
+      "styleAttributes": {
+      },
+      "text": "Milestones:\n- Gain 5.5-7 lb per year\n- Grow 2 inches in height per year\n- [[Chapter 19 NQ.pdf#page=3&selection=29,0,29,20|Physical Development]]\n- [[Chapter 19 NQ.pdf#page=7&selection=8,0,12,3|6yr old]]\n- [[Chapter 19 NQ.pdf#page=8&selection=4,0,8,3|7yr old]]\n- [[Chapter 19 NQ.pdf#page=8&selection=26,0,58,2|8yr old]]\n- [[Chapter 19 NQ.pdf#page=9&selection=4,0,8,3|9yr old]]\n- [[Chapter 19 NQ.pdf#page=9&selection=34,0,38,3|10yr old]]\n- [[Chapter 19 NQ.pdf#page=10&selection=4,0,11,3|11&12yr old]]\n",
+      "type": "text",
+      "width": 485,
+      "x": -180,
+      "y": 755
+    },
+    {
+      "color": "2",
+      "height": 420,
+      "id": "d9a47d280b3527e8",
+      "styleAttributes": {
+      },
+      "text": "Immunizations:\n[[Pediatric-Vaccinatons-Infographic-Landscape-1024x753-1.webp|Picmonic]]\n\n| 11Y-12Y       |\n| ------------- |\n| DTaP          |\n| HPV           |\n| Meningococcal |\n",
+      "type": "text",
+      "width": 485,
+      "x": -180,
+      "y": -210
+    },
+    {
+      "height": 360,
+      "id": "fd710f07570373e2",
+      "styleAttributes": {
+      },
+      "text": "Challenges:\n- [[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=4&selection=27,0,27,21|Emotional Development]]\n- [[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=5&selection=30,0,30,35|Need for Constant Care and Guidance]]\n- Colic\n- Lethargy\n- Developing sleep patterns\n- Safety\n\t- Car seats\n\t- Drowning\n\t- etc.\n",
+      "type": "text",
+      "width": 485,
+      "x": -1980,
+      "y": 1300
+    },
+    {
+      "height": 360,
+      "id": "79a2545b90c96c69",
+      "styleAttributes": {
+      },
+      "text": "Challenges:\n- [[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/Chapter 17 NQ.pdf#page=6&selection=46,0,48,6|Autism screening]]\n- The goal is to teach, not punish Discipline involves guidance \n- Maintain safety \n- Parents responses to temper tantrums can either reinforce the desirability of, or the risks involved in, such behavior \n- Expectations must be in line with the child’s physical and cognitive abilities\n- Toilet training",
+      "type": "text",
+      "width": 485,
+      "x": -1380,
+      "y": 1300
+    },
+    {
+      "height": 440,
+      "id": "05d1ce96f81085de",
+      "styleAttributes": {
+      },
+      "text": "Development Theories:\n- **Erikson:** Trust vs. Mistrust – Infants develop trust when caregivers are responsive and consistent.\n- **Freud:** Orality – Infants find comfort in sucking.\n- **Kohlberg:** Preconventional – Moral reasoning is driven by avoiding punishment.\n- **Sullivan:** Security – Security and comfort are essential.\n- **Piaget:** Sensorimotor (birth to 2 years) – Infants learn through sensory exploration and motor activities.\n",
+      "type": "text",
+      "width": 485,
+      "x": -1980,
+      "y": 270
+    },
+    {
+      "color": "6",
+      "height": 520,
+      "id": "1bd7a85597c07ff6",
+      "styleAttributes": {
+      },
+      "text": "Milestones:\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=6&selection=6,0,6,7|1 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=6&selection=28,0,28,8|2 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=7&selection=4,18,6,8|3 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=7&selection=28,0,28,8|4 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=8&selection=6,0,6,8|5 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=8&selection=30,18,32,8|6 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=9&selection=4,18,6,8|7 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=9&selection=44,0,44,8|8 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=10&selection=4,18,6,8|9 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=10&selection=36,0,36,9|10 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=11&selection=6,0,6,9|11 Month]]\n[[Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 NQ.pdf#page=11&selection=20,18,22,9|12 Month]]",
+      "type": "text",
+      "width": 485,
+      "x": -1980,
+      "y": 740
+    },
+    {
+      "color": "2",
+      "height": 420,
+      "id": "e9ff4c38b4efab1f",
+      "styleAttributes": {
+      },
+      "text": "Immunizations:\n[[Pediatric-Vaccinatons-Infographic-Landscape-1024x753-1.webp|Picmonic]]\n\n| 2M    | 4M   | 6M    |\n| ----- | ---- | ----- |\n| Hep B | DTaP | Hep B |\n| DTap  | RV   | DTap  |\n| RV    | HiB  | RV    |\n| HiB   | IPV  | HiB   |\n| IPV   | PCV  | IPV   |\n| PCV   |      | PCV   |\n|       |      | IN    |\n",
+      "type": "text",
+      "width": 485,
+      "x": -1980,
+      "y": -210
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "b234abb23e183c78",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "The Adolescent Child: 13yr - 18yr",
+      "type": "text",
+      "width": 485,
+      "x": 420,
+      "y": -850
+    },
+    {
+      "color": "6",
+      "height": 505,
+      "id": "dbce9a3979723006",
+      "styleAttributes": {
+      },
+      "text": "Milestones:\n- Divided into early, middle, and late because of changes that occur between 13 and 18 years of age\n- [[Chapter 20 NQ.pdf#page=4&selection=10,0,12,12|Adolescence begins in girls 10 to 13 years of age]]\n- [[Chapter 20 NQ.pdf#page=4&selection=50,0,50,4|Boys]]\n- [[Chapter 20 NQ.pdf#page=5&selection=4,0,4,5|Girls]]\n- [[Chapter 20 NQ.pdf#page=5&selection=48,0,48,24|Psychosocial Development]]\n",
+      "type": "text",
+      "width": 485,
+      "x": 420,
+      "y": 755
+    },
+    {
+      "height": 440,
+      "id": "4297c70e6710ed54",
+      "styleAttributes": {
+      },
+      "text": "Development Theories:\n- Erikson: intimacy stage (identity vs role confusion)\n- Piaget: abstract reasoning (separated in 3 stages)\n- Freud: genital stage",
+      "type": "text",
+      "width": 485,
+      "x": 420,
+      "y": 270
+    },
+    {
+      "height": 360,
+      "id": "77b12266b755e092",
+      "styleAttributes": {
+      },
+      "text": "Challenges:\n- [[Chapter 20 NQ.pdf#page=9&selection=22,0,22,8|Drug Use]]\n\t- P. A. C. E.\n- Depression\n- Pregnancy\n",
+      "type": "text",
+      "width": 485,
+      "x": 420,
+      "y": 1300
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "7634dcdbc95c09ac",
+      "styleAttributes": {
+      },
+      "text": "VS: HR 80-150 Resp: 25-55",
+      "type": "text",
+      "width": 485,
+      "x": -1980,
+      "y": -310
+    },
+    {
+      "file": "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod II/Chapter 16 Summary.md",
+      "height": 400,
+      "id": "625bf5382b202d82",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 485,
+      "x": -1980,
+      "y": -750
+    },
+    {
+      "file": "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod III/Chapter 17 Summary.md",
+      "height": 400,
+      "id": "6d089113fce16176",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 485,
+      "x": -1380,
+      "y": -750
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "2c048d0388e03a2f",
+      "styleAttributes": {
+      },
+      "text": "VS: HR 55-85 Resp: 12-18 BP: 90-108/60-68",
+      "type": "text",
+      "width": 485,
+      "x": 420,
+      "y": -310
+    },
+    {
+      "color": "2",
+      "height": 420,
+      "id": "a8a0024d4faac732",
+      "styleAttributes": {
+      },
+      "text": "Immunizations:\n[[Pediatric-Vaccinatons-Infographic-Landscape-1024x753-1.webp|Picmonic]]\n\n| 11Y-12Y       |\n| ------------- |\n| Meningococcal |\n",
+      "type": "text",
+      "width": 485,
+      "x": 420,
+      "y": -210
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "7aa236b77f409f2a",
+      "styleAttributes": {
+      },
+      "text": "VS: HR 70-110 Resp: 20-30 BP: 90/56",
+      "type": "text",
+      "width": 485,
+      "x": -1380,
+      "y": -310
+    },
+    {
+      "file": "Boxes/Temple College Nursing Program/LVN Program/Spring 25/Pediatrics/Documents/Mod IV/Chapter 20 Summary.md",
+      "height": 400,
+      "id": "b70cc0fbf4406779",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 485,
+      "x": 420,
+      "y": -740
+    }
+  ]
+}

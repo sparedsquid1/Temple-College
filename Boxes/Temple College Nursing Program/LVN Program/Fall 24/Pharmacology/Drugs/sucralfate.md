@@ -1,0 +1,60 @@
+---
+DrugClass: "[[Upper Gastrointestinal System Drugs]]"
+SubClass: "[[Acid reducers]]"
+DrugClassAdverse: "[[Acid reducers#Adverse Reactions]]"
+DrugClassContra: "[[Acid reducers#Contraindications]]"
+BrandName: Carafate
+SecondaryDrugClass: 
+SecondarySubClass: 
+SecondaryAdverse: 
+SecondaryContra: 
+ThirdDrugClass: 
+ThirdSubClass: 
+ThirdAdverse: 
+ThirdContra: 
+FourthDrugClass: 
+FourthSubClass: 
+FourthAdverse: 
+FourthContra: 
+Chapter: "37"
+KindleLinkChap: "[Chapter 37](kindle://book?action=open&asin=B09FRF11YJ&location=20599)"
+KindleLink: 
+tags:
+  - Drug
+  - Pharmacology
+Course: Pharmacology
+ChemLink: https://pubchem.ncbi.nlm.nih.gov/#query=
+aliases:
+---
+```smiles
+
+```
+
+### Brand name
+`=this.BrandName`
+
+### Generic name
+`= this.file.name`
+
+### Drug class 
+`= this.DrugClass`
+	`= this.DrugClass.KindleLinkChap`
+
+### Dosage & Usage
+Short-term duodenal ulcer treatment
+ 1 g/ day orally in divided doses
+
+### Contraindications
+See `= this.DrugClassContra`
+
+### Interactions
+
+
+### Side/Adverse Effects
+See `= this.DrugClassAdverse`
+Constipation
+
+### Interactions
+
+`= this.ChemLink+this.file.name`
+

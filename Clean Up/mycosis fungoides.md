@@ -1,0 +1,9 @@
+Mycosis fungoides is a rare form of cutaneous T-cell [[Lymphoma]], which is a type of non-Hodgkin's [[Lymphoma]] that affects the skin. It typically presents as patches, plaques, or tumors on the skin, which may be mistaken for other skin conditions like eczema or psoriasis in its early stages. The disease progresses slowly and can remain confined to the skin for many years, but in advanced stages, it may spread to lymph nodes, [[Blood]], and internal organs.
+
+### Key Points About Mycosis Fungoides:
+- **Symptoms:** Early symptoms include red, scaly patches or thickened plaques on the skin. As the disease progresses, tumors may develop, and the skin may become ulcerated.
+- **Stages:** The disease has several stages, ranging from early patches (patch stage), thicker plaques (plaque stage), to more advanced tumors (tumor stage). Advanced stages may involve the lymph nodes and internal organs.
+- **Diagnosis:** Diagnosis typically involves a skin biopsy, which shows atypical T-cells in the skin. Additional tests, such as [[Blood]] tests, imaging, and lymph node biopsy, may be used to assess the extent of the disease.
+- **Treatment:** Treatment varies depending on the stage and may include [[Topical corticosteroids]], phototherapy, radiation therapy, systemic therapies like chemotherapy, or targeted therapies. Early-stage disease may be managed with skin-directed treatments, while advanced stages require more aggressive treatment.
+
+It's important for anyone diagnosed with or showing symptoms of mycosis fungoides to be under the care of a specialist, typically a dermatologist or oncologist, who can tailor treatment to the individual's specific condition.

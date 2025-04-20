@@ -1,0 +1,1 @@
+**Lymphoma** is a type of cancer that begins in the [[Lymphatic system]], specifically in the lymphocytes, which are a type of white [[Blood]] cell that helps the body fight infections. There are two main types of lymphoma: Hodgkin lymphoma and non-Hodgkin lymphoma, each with different characteristics and treatment options.

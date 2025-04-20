@@ -1,0 +1,13 @@
+.markdown-preview-view::after {
+  content: "";
+  position: absolute;
+  background-image: url(obsidian://open?vault=Temple%20College&file=Boxes%2FTemple%20College%20Nursing%20Program%2FGemini_Generated_Image_6e44fw6e44fw6e44.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(4px) brightness(50%) saturate(50%);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}

@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"d6ee872afddc8453","x":-382,"y":-243,"width":852,"height":603,"type":"group","label":"Drug"},
+		{"id":"aa8025fd9530497e","x":-362,"y":-223,"width":250,"height":60,"type":"text","text":"Generic Name:\n"},
+		{"id":"1e83cf6a9ec09e17","x":-80,"y":-223,"width":250,"height":60,"type":"text","text":"Brand Name:\n"},
+		{"id":"0219ffa9ef9298b9","x":200,"y":-223,"width":250,"height":60,"type":"text","text":"Drug Class:\n"},
+		{"id":"99487325bf81e994","x":-362,"y":-120,"width":382,"height":231,"type":"text","text":"Dosage & Indications\n\n\n\n\n\n\n\n\n\n"},
+		{"id":"5f4c131f8f3f0ffe","x":60,"y":-120,"width":390,"height":231,"type":"text","text":"Mechanisms of Action"},
+		{"id":"d9cda1e65c045f9a","x":-362,"y":150,"width":222,"height":190,"type":"text","text":"Side/adverse Effects"},
+		{"id":"f40c8db6e45c1f9b","x":-112,"y":150,"width":282,"height":190,"type":"text","text":"Contraindications"},
+		{"id":"1e4bc17a1184282c","x":200,"y":150,"width":250,"height":190,"type":"text","text":"Interactions"}
+	],
+	"edges":[]
+}

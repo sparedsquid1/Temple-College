@@ -1,0 +1,1 @@
+Hemiparesis is a medical condition characterized by weakness or partial inability to move one side of the body, often resulting from a stroke or brain injury. It can affect daily activities such as walking, dressing, and eating due to the loss of strength and coordination on the affected side.

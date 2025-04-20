@@ -1,0 +1,123 @@
+What do skeletal muscle tissue and cardiac muscle tissue share in common?
+Both skeletal and cardiac muscle tissues consist of striated muscle cells
+
+What characteristic is NOT descriptive of cardiac muscle tissue?
+voluntary muscle contractions
+
+The plasma membrane of a muscle cell is known as the:
+sarcolemma
+
+The storage and release of calcium ions is the key function of the:
+sarcoplasmic reticulum
+
+Deep inward extensions of the sarcolemma form a tunnel-like network inside the muscle cell known as:
+transverse tubules (T-tubules).
+
+A triad consists of:
+a transverse tubule (T-tubule) and two terminal cisternae.
+
+Which protein does NOT belong in a thin filament?
+myosin
+
+Which of the following wraps and surrounds an individual skeletal muscle fiber?
+endomysium
+
+What anchors thin filaments in place within the myofibril?
+Z disc
+
+The central region of the A band (in a sarcomere) that lacks thin filaments is the:
+H zone
+
+What is the functional contractile unit of the myofibril where muscle tension is produced?
+sarcomere
+
+Which of the following statements is the most accurate description of the sliding filament mechanism?
+Thin filaments slide past thick filaments towards the M line
+
+A muscle cell experiencing resting membrane potential is:
+polarized
+
+The Na+/K+ pump helps a muscle cell maintain a state of:
+resting membrane potential
+
+The synapse of a motor neuron with a muscle fiber is known as the:
+neuromuscular junction
+
+Where are receptors for acetylcholine located?
+motor end plate
+
+When an action potential arrives in an axon terminal, synaptic vesicles containing acetylcholine are released by:
+exocytosis
+
+What does the depolarization of the transverse tubules (T-tubules) promote?
+X release of acetylcholine from vesicles in the motor neuron into the synaptic cleft
+X binding of acetylcholine to ligand-gated sodium ion channels
+X release of calcium from the sarcoplasmic reticulum
+X entry of sodium ions into the muscle fiber through voltage-gated sodium ion channels
+
+What is required for excitation-contraction coupling in a muscle fiber?
+calcium ions and ATP
+
+Once excitation-contraction coupling has occurred, calcium ion concentration increases dramatically in the:
+cytosol of the muscle fiber
+
+The binding of a myosin head to an actin molecule is termed a:
+crossbridge
+
+What is accomplished by the power stroke?
+The power stroke results in myosin heads pulling actin toward the center of the sarcomere
+
+What happens when troponin and tropomyosin block the active sites of actin?
+The muscle fiber relaxes
+
+After immediately available ATP molecules are used to power muscle fiber contraction, what energy reserve molecule within the fiber provides about 10 to 15 seconds of additional ATP availability?
+creatine phosphate
+
+Which statement best describes the function of the protein myoglobin?
+Myoglobin stores oxygen in muscle cells
+
+Through which ATP-generating mechanism can long-lasting muscle contractions be sustained?
+oxidative catabolism from aerobic cellular respiration
+
+Between the start of the latent period and the start of the contraction period, there is a time interval during which the muscle fiber cannot respond to another stimulus. This brief period is known as the:
+refractory period
+
+Clostridium botulinum is a bacterium that produces botulinum toxin that inhibits the release of acetylcholine. How will muscle fibers respond to this lack of acetylcholine?
+Muscle cells will become paralyzed (unable to contract) when there is a lack of acetylcholine
+
+When muscle fibers are stimulated so frequently they do not have an opportunity to relax, they are experiencing:
+fused or complete tetanus
+
+A single motor neuron together with all the skeletal muscle fibers it innervates is called a:
+motor unit
+
+Resting muscles still have some degree of muscle tension produced by involuntary activation of motor units by the brain and spinal cord. This small amount of muscle tension is known as:
+muscle tone
+
+A person tried to pick up his sofa but discover that it is much heavier than he expected. What must occur in the muscle to increase tension so they can pick up this heavy piece of furniture?
+recruitment of additional motor units
+
+The type of contraction in which length of the muscle fibers do not change is called:
+isometric
+
+In response to physical inactivity (i.e., disuse of muscles), we expect to see muscles:
+atrophy
+
+Larry's muscles weakened while he played tennis for hours on a hot summer afternoon. This inability to maintain intensity is defined as:
+muscular fatigue
+
+Smooth muscle and skeletal muscle both possess:
+myosin and actin filaments
+
+What do skeletal muscle contractions share in common with smooth muscle contractions?
+Both types of contractions result from thick and thin filaments sliding past one another
+
+What type of contraction occurs when a muscle contracts but still lengthens (as in lowering an object) because the force from the object is stronger than the force generated by the contracting muscle?
+isotonic eccentric
+
+What type of contraction occurs when a muscle contracts but its length remains unchanged because the external force applied by an object equals that generated by the muscle?
+isometric
+
+What type of contraction occurs when a muscle contracts and the muscle shortens (e.g., as in lifting an object) because the force generated by the muscle is greater than the external force?
+isotonic concentric
+

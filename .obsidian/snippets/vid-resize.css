@@ -1,0 +1,25 @@
+/* To resize video width to percentage */
+
+[
+alt
+~="vid-5"] video {
+  width: 5%;
+}
+
+[
+alt
+~="vid-10"] video {
+  width: 10%;
+}
+
+[
+alt
+~="vid-20"] video {
+  width: 20%;
+}
+
+[
+alt
+~="vid-40"] video {
+  width: 40%;
+}

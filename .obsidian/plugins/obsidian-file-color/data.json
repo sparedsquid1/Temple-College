@@ -1,0 +1,152 @@
+{
+  "cascadeColors": false,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "qmGV3m8MZLHXuR-U1QdcT",
+      "name": "red",
+      "value": "#e22c3c"
+    },
+    {
+      "id": "EF5buQ3uAdJr6KOz7-vg5",
+      "name": "red-orange",
+      "value": "#e9404b"
+    },
+    {
+      "id": "L2TBTG2wtpYW3024hrOXI",
+      "name": "orange",
+      "value": "#ee6748"
+    },
+    {
+      "id": "AU7mDTT6jEFBAcchpcXhM",
+      "name": "amber",
+      "value": "#fa9f50"
+    },
+    {
+      "id": "F0pXNjpp2bWgdcHWsiKF-",
+      "name": "yellow",
+      "value": "#ffd85e"
+    },
+    {
+      "id": "XwSxlyaZUi8MbQFbVQWTr",
+      "name": "mint",
+      "value": "#52eea3"
+    },
+    {
+      "id": "h_6L15VgD2EggIlggFPyu",
+      "name": "cyan",
+      "value": "#51e139"
+    },
+    {
+      "id": "AqiTD8aj7IOmKU_GlnAYM",
+      "name": "cool-cyan",
+      "value": "#43cfea"
+    },
+    {
+      "id": "rSbKhFkQeGnaMWBs6nXy0",
+      "name": "light-blue",
+      "value": "#54b6f8"
+    },
+    {
+      "id": "_cKxtpK1-HWl4OqhA-W2A",
+      "name": "blue",
+      "value": "#437cf3"
+    },
+    {
+      "id": "ExfKlkviCPdpiCTykTMpV",
+      "name": "blue-violet",
+      "value": "#6f51f4"
+    },
+    {
+      "id": "oe1fPgZa_XlVyMI4mklwb",
+      "name": "violet",
+      "value": "#9446f8"
+    },
+    {
+      "id": "KmopMSo5Dq_EdVt5AkBtl",
+      "name": "purple",
+      "value": "#c952ed"
+    },
+    {
+      "id": "HiuEUTNAqS3E6IaAa81cJ",
+      "name": "magenta",
+      "value": "#e54f9b"
+    },
+    {
+      "id": "kCJOVgzL50tHUJXPrXblF",
+      "name": "hot-red",
+      "value": "#e3365e"
+    },
+    {
+      "id": "pbRKus2lVKcw0a1dAw73b",
+      "name": "cool-gray",
+      "value": "#515768"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Boxes/Temple College Nursing Program",
+      "color": "XwSxlyaZUi8MbQFbVQWTr"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program",
+      "color": "F0pXNjpp2bWgdcHWsiKF-"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Summer 24",
+      "color": "HiuEUTNAqS3E6IaAa81cJ"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Basic Nursing Skills",
+      "color": "HiuEUTNAqS3E6IaAa81cJ"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Clinical Lvn Training",
+      "color": "HiuEUTNAqS3E6IaAa81cJ"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Foundations of Nursing",
+      "color": "HiuEUTNAqS3E6IaAa81cJ"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Mental Health and Illness",
+      "color": "HiuEUTNAqS3E6IaAa81cJ"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Basic Nursing Skills/Documents/Chapter 29 NQ.pdf",
+      "color": "KmopMSo5Dq_EdVt5AkBtl"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Summer 24/Basic Nursing Skills/Documents/Chapter 30 NQ.pdf",
+      "color": "KmopMSo5Dq_EdVt5AkBtl"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Fall 24",
+      "color": "_cKxtpK1-HWl4OqhA-W2A"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Spring 25",
+      "color": "XwSxlyaZUi8MbQFbVQWTr"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Advanced Nursing Skills",
+      "color": "_cKxtpK1-HWl4OqhA-W2A"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Clinical-Lvn Training",
+      "color": "_cKxtpK1-HWl4OqhA-W2A"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Fall 24/MED-SURG",
+      "color": "_cKxtpK1-HWl4OqhA-W2A"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Fall 24/OB",
+      "color": "_cKxtpK1-HWl4OqhA-W2A"
+    },
+    {
+      "path": "Boxes/Temple College Nursing Program/LVN Program/Fall 24/Pharmacology",
+      "color": "_cKxtpK1-HWl4OqhA-W2A"
+    }
+  ]
+}

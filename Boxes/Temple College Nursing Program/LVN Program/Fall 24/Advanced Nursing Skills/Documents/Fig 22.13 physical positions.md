@@ -1,0 +1,1 @@
+![[560_Williams6e_Figure_22-13.png]]

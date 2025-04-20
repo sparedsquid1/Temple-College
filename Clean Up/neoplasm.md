@@ -1,0 +1,1 @@
+A **neoplasm** is an abnormal growth of tissue, commonly referred to as a tumor. It can be benign (non-cancerous) or malignant (cancerous), and results from uncontrolled cell division.

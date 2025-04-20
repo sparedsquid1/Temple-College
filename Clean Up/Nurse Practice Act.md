@@ -1,0 +1,1 @@
+The Nurse Practice Act dictates the acceptable scope of nursing practice for the different levels of nursing. When a nurse is questioning whether or not to perform a certain skill or perhaps is accused of wrongdoing, the Nurse Practice Act typically is consulted to find out if that nurse is performing at the accepted level of preparation.

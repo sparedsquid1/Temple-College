@@ -1,0 +1,10 @@
+Hepatic encephalopathy is a decline in brain function that occurs as a result of severe [[Liver]] disease. The [[Liver]] is responsible for removing toxins from the [[Blood]]. When the [[Liver]] is damaged and cannot function properly, toxins build up in the bloodstream and can travel to the brain, affecting brain function.
+
+**Key Points:**
+- **Causes:** The primary cause is chronic [[Liver]] disease, such as cirrhosis, [[hepatitis]], or acute [[Liver]] failure. Other factors that can trigger hepatic encephalopathy include gastrointestinal bleeding, infections, dehydration, constipation, certain medications, and excessive protein intake.
+- **Symptoms:** Symptoms can range from mild to severe and may include confusion, forgetfulness, [[personality]] or mood changes, impaired judgment, disorientation, drowsiness, slurred speech, and in severe cases, coma.
+- **Diagnosis:** Diagnosis typically involves a combination of medical history, physical examination, [[Blood]] tests to assess [[Liver]] function and ammonia levels, imaging studies, and neuropsychological tests.
+- **Treatment:** Treatment aims to reduce the production and absorption of toxins in the gut, primarily ammonia. This can be achieved through medications such as [[lactulose]] (which helps to expel ammonia) and antibiotics like [[rifaximin]] (which reduces ammonia-producing bacteria). Managing the underlying [[Liver]] disease, correcting precipitating factors, and dietary modifications are also important.
+- **Prognosis:** The prognosis varies depending on the severity of [[Liver]] disease, the response to treatment, and the presence of any precipitating factors. Early detection and management are crucial for improving outcomes.
+
+Hepatic encephalopathy is a serious condition that requires prompt medical attention to prevent complications and improve the quality of life for affected individuals.

@@ -1,0 +1,3 @@
+Laudanum is a tincture of opium that was commonly used in the 18th and 19th centuries as a painkiller and sedative. It typically contains opium dissolved in [[Alcohol]], which makes it a very potent and addictive substance. Laudanum was prescribed for a wide range of ailments, including coughs, diarrhea, insomnia, and pain. However, due to its high opium [[Content]], it was often misused and led to dependency.
+
+The use of laudanum declined in the 20th century as regulations around narcotics became stricter and safer alternatives were developed. Today, laudanum is rarely used in medicine, and its production and sale are tightly controlled due to the risks of addiction and overdose.

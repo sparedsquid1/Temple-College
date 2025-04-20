@@ -1,0 +1,1 @@
+![[48_Williams6e_Box_22-5.png]]

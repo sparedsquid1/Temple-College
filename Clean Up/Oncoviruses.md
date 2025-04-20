@@ -1,0 +1,1 @@
+**Oncoviruses** are viruses that can cause cancer by altering the genetic material of infected cells, leading to uncontrolled cell growth. Examples of oncoviruses include human papillomavirus (HPV), [[Epstein-Barr]] virus ([[Epstein-Barr]]), and [[hepatitis]] B and C viruses.

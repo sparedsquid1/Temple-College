@@ -1,0 +1,1 @@
+Galactorrhea (guh-lack-toe-REE-uh) is **a milky nipple discharge unrelated to the usual milk production of breastfeeding**. Galactorrhea itself isn't a disease, but it could be a sign of another medical condition. It usually happens in women, even those who have never had children or who have gone through [[menopause]].

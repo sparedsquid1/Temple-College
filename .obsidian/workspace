@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "8cfde0b7fa2133cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "62f61f62d0126fdc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Boxes/Temple College Nursing Program/A&P I/Nervous System/Quiz.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff9b045249c29d88",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed2e3327ad5f5b3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7aa89504e757018e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e25762d133ac5320",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f55d7d14186548f4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "62c79c22ee7baf63",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5dd0c61380210da0",
+    "type": "split",
+    "children": [
+      {
+        "id": "39e0986c9e8bc6ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56f91e8b7ebd5e06",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Boxes/Temple College Nursing Program/A&P I/Nervous System/Quiz.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0f6b9ed5991637a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Boxes/Temple College Nursing Program/A&P I/Nervous System/Quiz.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "86b6c03ff2c22bf1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5dc5df654a29ae8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Boxes/Temple College Nursing Program/A&P I/Nervous System/Quiz.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "62f61f62d0126fdc",
+  "lastOpenFiles": []
+}

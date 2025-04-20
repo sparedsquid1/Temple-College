@@ -1,0 +1,1 @@
+Hirsutism is **excess hair most often noticeable around the [[Mouth]] and chin**. With hirsutism, extra hair growth often arises from excess male [[Hormones]] ([[Androgens]]), primarily [[testosterone]]. Self-care methods and effective treatment options are available for women who wish to treat hirsutism.

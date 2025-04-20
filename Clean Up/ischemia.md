@@ -1,0 +1,1 @@
+a condition in which [[Blood]] [[flow]] (and thus oxygen) is restricted or reduced in a part of the body

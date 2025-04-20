@@ -1,0 +1,37 @@
+{
+  "version": "v3",
+  "darkTheme": "gruvbox-dark",
+  "lightTheme": "light",
+  "sample1": "Cc1ccc(cc1)NOC(=O)c2ccccc2",
+  "sample2": "Cc1ccc(cc1)NOC(=O)c2ccccc2",
+  "copy": {
+    "scale": 6,
+    "transparent": true,
+    "theme": "default"
+  },
+  "dataview": false,
+  "inlineSmiles": true,
+  "inlineSmilesPrefix": "$smiles=",
+  "core": "smiles-drawer",
+  "commonOptions": {
+    "width": 1000,
+    "scale": 0,
+    "unifiedWidth": 300,
+    "compactDrawing": false,
+    "explicitHydrogens": true,
+    "explicitMethyl": true
+  },
+  "smilesDrawerOptions": {
+    "moleculeOptions": {
+      "terminalCarbons": true,
+      "explicitHydrogens": true,
+      "compactDrawing": false,
+      "width": 1000,
+      "scale": 0
+    },
+    "reactionOptions": {}
+  },
+  "rdkitOptions": {
+    "explicitMethyl": true
+  }
+}

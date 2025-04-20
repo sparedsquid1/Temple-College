@@ -1,0 +1,61 @@
+---
+DrugClass: "[[Opioid Analgesics and Antagonists]]"
+SubClass: "[[Opioid Analgesics]]"
+DrugClassAdverse: "[[Opioid Analgesics#Adverse Reactions]]"
+DrugClassContra: "[[Opioid Analgesics#Contraindications]]"
+BrandName: Narcan, Evzio
+SecondaryDrugClass: 
+SecondarySubClass: 
+SecondaryAdverse: 
+SecondaryContra: 
+ThirdDrugClass: 
+ThirdSubClass: 
+ThirdAdverse: 
+ThirdContra: 
+FourthDrugClass: 
+FourthSubClass: 
+FourthAdverse: 
+FourthContra: 
+Chapter: "15"
+KindleLinkChap: "[Chapter 15](kindle://book?action=open&asin=B09FRF11YJ&location=8219)"
+KindleLink: 
+tags:
+  - Drug
+  - Pharmacology
+Course: Pharmacology
+ChemLink: https://pubchem.ncbi.nlm.nih.gov/#query=
+aliases: 
+SubCat: Antagonists (Blocks Receptors, Reverses the Effect of the Opiate)
+---
+```smiles
+C=CCN1CC[C@]23[C@@H]4C(=O)CC[C@]2([C@H]1CC5=C3C(=C(C=C5)O)O4)O
+```
+
+### Brand name
+`=this.BrandName`
+
+### Generic name
+`= this.file.name`
+
+### Drug class 
+`= this.DrugClass`
+	`= this.DrugClass.KindleLinkChap`
+
+### Dosage & Usage
+Complete or partial reversal of opioid effects after surgery or overdose
+Postoperative opioid reversal: 0.1– 0.2 mg IV at 2- to 3-min intervals Suspected opioid overdose:
+0.4– 2.0 mg IV at 2- to 3-min intervals
+
+### Contraindications
+See `= this.DrugClassContra`
+
+### Mechanisms of Action
+
+
+### Side/Adverse Effects
+See `= this.DrugClassAdverse`
+Nausea, vomiting, tachycardia, hypertension, return of postoperative pain, [[Fever]], dizziness
+
+### Interactions
+
+`= this.ChemLink+this.file.name`

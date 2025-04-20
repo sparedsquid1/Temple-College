@@ -1,0 +1,860 @@
+<style type="text/css">
+			
+			html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, font, img, ins, kbd,
+q, s, samp, small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+caption {
+  font-weight: bold;
+  text-align: left;
+  border-width: 1px;
+  padding: .2em .2em;
+  border: 1px solid #fff;
+  font-size: 1.1em;
+}
+
+body {
+	font-size: 12px;
+	background-color: transparent;
+	overflow: auto;
+	lineheight: 1;
+	color: #333;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+.hl7title {
+	font-size: 12pt;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+
+.hl7tableWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	background: #ffffff;
+}
+
+.hl7tableWrapper table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: none;
+}
+
+.hl7_header {
+	padding: 5px 0;
+}
+
+.hl7_footer {
+  font-style: italic;
+  padding-left: 5px;
+}
+
+.hl7HeaderNotes {
+	text-indent: 10px;
+	font-style: italic;
+}
+
+.hl7_header div {
+	line-height: 150%;
+	margin-bottom: 10px;
+}
+
+.hl7tableWrapper th {
+	padding: 3px 5px;
+	background: #EBF4FA;
+	border-top: 1px solid #516273;
+	border-bottom: 1px solid #516273;
+	text-align: left;
+}
+
+.hl7NugSep {
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.hl7NoteRow {
+	padding: 3px 15px;
+	white-space: pre-wrap;
+}
+
+.hl7tableWrapper td {
+	padding: 4px 5px 0;
+	color: #333;
+}
+
+.hl7tableWrapper .spCol {
+	padding: 0;
+}
+
+.obxRow .hl7FirstCol, .obrNoteRow .hl7FirstCol {
+	padding-left: 20px;
+	min-width: 200px;
+}
+
+.obxRow .hl7SubIDCol {
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.obxRow .abnVal {
+	color: red;
+}
+
+.hl7PatientInfo {
+	font-weight: bold;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.hl7LabInfo td {
+	font-size: 11px;
+	color: #696969;
+}
+
+.obrName td {
+	font-weight: bold;
+	color: #2D4663;
+	padding-top: 15px;
+}
+
+.obrSpec td,
+.obrNoteRow td,
+.obsNoteRow td {
+	font-family: Lucida Console;
+	padding-left: 30px;
+	color: #4169E1;
+}
+
+.obsNoteRow .hl7NoteRow {
+	padding-left: 10px;
+}
+
+.superScript {
+	font-size: 10px;
+}
+
+.labHeader {
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+.labTable {
+	padding: 25px 0 10px
+}
+
+.labTable div {
+	display: inline;
+}
+
+.obrParentResult td {
+	color: #0000FF;
+	font-style: italic;
+	font-weight: normal;
+	padding-left: 15px;
+}
+
+.flagsLegend {
+padding: 25px 0 0;
+}
+
+.flags {
+	padding: 5px 30px 0 50px;
+	text-align: center;
+}
+
+.flag {
+	display: inline-block;
+	padding: 0 20px 5px 0;
+	font-weight: bold;
+}
+
+.resRow td {
+	padding-left: 10px;
+}
+
+.resRow.obrParentResult td {
+	padding-left: 20px;
+}
+
+.obsTable table {
+	margin-left: 25px;
+	width: auto;
+}
+
+.obsTable td {
+	padding: 4px 3px 2px;
+}
+
+.obsRow .obsDesc {
+	min-width: 150px;
+	max-width: 300px;
+	overflow: hidden;
+	white-space: normal;
+}
+
+.obsRow .resResultFirstCol {
+	width: 50px;
+	vertical-align: bottom;
+}
+
+.obsRow div {
+	display: inline-block;
+}
+
+.obsRow .obsResultHeader div {
+	max-width: 87px;
+}
+
+.obsRow .obsResultFlag div {
+	max-width: 26px;
+}
+
+.obsRow .obsResultValue div {
+	max-width: 62px;
+}
+
+.obsRow.headerRow td {
+	font-weight: bold;
+}
+
+.obsRow.evenObsRow td {
+	background-color: #DCDCDC;
+}
+
+
+.obsTable table {
+	white-space: nowrap;
+}
+
+.obsRow div {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+			
+		</style>
+<div class="hl7tableWrapper">
+  <div class="hl7title">Order Results</div>
+  <div id="hl7_header" class="hl7_header">
+    <table class="header" width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr class="page-break">
+        <td class="hl7PatientInfo"> Patient: </td>
+        <td class="hl7PatientInfo">BRIERY, PAUL M</td>
+        <td class="hl7LabInfo"> Lab Order #: </td>
+        <td class="hl7LabInfo">CR218875</td>
+      </tr>
+      <tr class="page-break">
+        <td class="hl7PatientInfo"> DOB: </td>
+        <td class="hl7PatientInfo">12/31/1968</td>
+        <td class="hl7LabInfo"> Clinical Order #: </td>
+        <td class="hl7LabInfo">SW0428870085496</td>
+      </tr>
+      <tr class="page-break">
+        <td class="hl7PatientInfo"> Sex: </td>
+        <td class="hl7PatientInfo">Male-M</td>
+        <td class="hl7LabInfo"> Report Date: </td>
+        <td class="hl7LabInfo">Thu 02/20/2025 2:16:35</td>
+      </tr>
+      <tr class="page-break">
+        <td class="hl7PatientInfo"> MRN: </td>
+        <td class="hl7PatientInfo">SW0428870085496</td>
+        <td class="hl7LabInfo"> Observation Date: </td>
+        <td class="hl7LabInfo">Wed 02/19/2025 12:02:00</td>
+      </tr>
+      <tr class="page-break">
+        <td class="hl7PatientInfo"> Ordering Provider: </td>
+        <td class="hl7PatientInfo">TRAN, HIEN</td>
+        <td class="hl7LabInfo"> Received Date: </td>
+        <td class="hl7LabInfo">Wed 02/19/2025 15:32:00</td>
+      </tr>
+    </table>
+  </div>
+  <div class="hl7HeaderNotes"></div>
+  <table class="orderDetails" border="0">
+    <tr class="page-break">
+      <th class="hl7FirstCol"> Description </th>
+      <th> Out-of-Range </th>
+      <th> In-Range </th>
+      <th> Units </th>
+      <th> Expected </th>
+      <th> Flag</th>
+      <th> Status</th>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow">PT FASTING</td>
+    </tr>
+    <tr class="obrName page-break">
+      <td colspan="6">142 BASIC METABOLIC PANEL</td>
+      <td title="Final result; results stored and verified.">F</td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol abnVal" style="padding-left:20px">2217 - GLUCOSE<sup class="superScript">1</sup></td>
+      <td class="abnVal">115</td>
+      <td class="abnVal"></td>
+      <td class="abnVal">MG/DL</td>
+      <td class="abnVal">70-99</td>
+      <td class="abnVal" title="Above high normal">H</td>
+      <td class="abnVal" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2208 - BUN<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">9</td>
+      <td class="">MG/DL</td>
+      <td class="">6-20</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2214 - CREATININE<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">0.91</td>
+      <td class="">MG/DL</td>
+      <td class="">0.80-1.40</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">23001 -  eGFR (2021 CKD-EPI)<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">99</td>
+      <td class="">ML/MIN/1.73</td>
+      <td class="">>60</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2231 - SODIUM<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">137</td>
+      <td class="">MEQ/L</td>
+      <td class="">133-146</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2228 - POTASSIUM<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">4.4</td>
+      <td class="">MEQ/L</td>
+      <td class="">3.5-5.4</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2215 - CHLORIDE<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">100</td>
+      <td class="">MEQ/L</td>
+      <td class="">95-107</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2206 - CARBON DIOXIDE<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">24</td>
+      <td class="">MEQ/L</td>
+      <td class="">19-31</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2209 - CALCIUM<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">9.6</td>
+      <td class="">MG/DL</td>
+      <td class="">8.5-10.5</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="obrName page-break">
+      <td colspan="6">9175 HEPATIC FUNCTION PANEL</td>
+      <td title="Final result; results stored and verified.">F</td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2229 - PROTEIN, TOTAL<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">7.0</td>
+      <td class="">G/DL</td>
+      <td class="">6.1-8.3</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2201 - ALBUMIN<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">4.1</td>
+      <td class="">G/DL</td>
+      <td class="">3.5-5.2</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2207 - BILIRUBIN, TOTAL<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">0.3</td>
+      <td class="">MG/DL</td>
+      <td class=""><=1.2</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2022 - BILIRUBIN, DIRECT<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">0.1</td>
+      <td class="">MG/DL</td>
+      <td class="">0.0-0.3</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2204 - ALKALINE PHOSPHATASE<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">71</td>
+      <td class="">U/L</td>
+      <td class="">40-123</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2218 - AST<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">13</td>
+      <td class="">U/L</td>
+      <td class="">9-50</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2219 - ALT<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">17</td>
+      <td class="">U/L</td>
+      <td class="">5-50</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="obrName page-break">
+      <td colspan="6">2707 HEMOGLOBIN A1c W/EAG AND INT CHART</td>
+      <td title="Final result; results stored and verified.">F</td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol abnVal" style="padding-left:20px">48521 - HEMOGLOBIN A1c<sup class="superScript">1</sup></td>
+      <td class="abnVal">8.3</td>
+      <td class="abnVal"></td>
+      <td class="abnVal">%</td>
+      <td class="abnVal">4.2-5.6</td>
+      <td class="abnVal" title="Above high normal">H</td>
+      <td class="abnVal" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol abnVal" style="padding-left:20px">27081 - ESTIMATED AVERAGE GLUCOSE<sup class="superScript">1</sup></td>
+      <td class="abnVal">192</td>
+      <td class="abnVal"></td>
+      <td class="abnVal">MG/DL</td>
+      <td class="abnVal"><117</td>
+      <td class="abnVal" title="Above high normal">H</td>
+      <td class="abnVal" title="Final result">F</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">           HGB A1C                     ESTIMATED AVERAGE GLUCOSE</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">             6.0% . . . . . . . . . . . . . . .  126 MG/DL</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">             7.0% . . . . . . . . . . . . . . .  154 MG/DL</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">             8.0% . . . . . . . . . . . . . . .  183 MG/DL</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">             9.0% . . . . . . . . . . . . . . .  212 MG/DL</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">           >10.0% . . . . . . . . . . . . . . . >240 MG/DL</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">     NOTE: ASSAY MAY BE AFFECTED BY HEMOGLOBINOPATHIES (SICKLE</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">     CELL ANEMIA, S-C DISEASE, OTHERS) OR ARTIFICIALLY LOWERED BY</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">     DECREASED RED CELL SURVIVAL (HEMOLYTIC ANEMIAS, BLOOD LOSS,</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">     ETC.).  CONSIDER ALTERNATE TESTING OR LABORATORY CONSULTATION.</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="obrName page-break">
+      <td colspan="6">200 LIPID PROFILE WITH CALC NON-HDL CHOLESTEROL</td>
+      <td title="Final result; results stored and verified.">F</td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2210 - CHOLESTEROL<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">163</td>
+      <td class="">MG/DL</td>
+      <td class=""><200</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol abnVal" style="padding-left:20px">2232 - TRIGLYCERIDES<sup class="superScript">1</sup></td>
+      <td class="abnVal">202</td>
+      <td class="abnVal"></td>
+      <td class="abnVal">MG/DL</td>
+      <td class="abnVal"><150</td>
+      <td class="abnVal" title="Above high normal">H</td>
+      <td class="abnVal" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2220 - HDL CHOLESTEROL<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">47</td>
+      <td class="">MG/DL</td>
+      <td class="">>39</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2237 - CALC LDL CHOL<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">87</td>
+      <td class="">MG/DL</td>
+      <td class=""><100</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">NOTE: CALCULATED LDL IS BASED ON MARTIN-HOPKINS METHOD WHICH</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">INCLUDES ADJUSTABLE <a href="TRIGLYCERIDE:VLDL" target="_blank">TRIGLYCERIDE:VLDL</a> CHOLESTEROL RATIO.</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">THIS FACTOR VARIES BY MEASURED TRIGLYCERIDE AND NON-HDL</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">CHOLESTEROL CONCENTRATIONS WITH INCREASED CALCULATED LDL SEEN</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">IN HIGHER TRIGLYCERIDE OR LOWER NON-HDL SPECIMENS. FOR MORE</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">INFORMATION, SEE CLIENT ANNOUNCEMENT AT </td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"><a href="http://www.cpllabs.com/CalcLDL-C" target="_blank">http://www.cpllabs.com/CalcLDL-C</a></td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">22211 - CALC NON-HDL CHOL<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">116</td>
+      <td class="">MG/DL</td>
+      <td class=""><130</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">     NOTE: FOR ADULTS, NON-HDL CHOLESTEROL TREATMENT GOALS ARE 30</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">     MG/DL ABOVE LDL GOALS.  TREATMENT GOALS ARE BASED ON CVD</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">     RISK ASSESSMENT. (NCEP, ATP III)</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2238 - RISK RATIO LDL/HDL<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">1.85</td>
+      <td class="">RATIO</td>
+      <td class=""><3.55</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="obrName page-break">
+      <td colspan="6">4895 ALBUMIN/CREATININE RATIO, URINE, RANDOM</td>
+      <td title="Final result; results stored and verified.">F</td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2072 - CREATININE, URINE, CONC.<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">99.3</td>
+      <td class="">MG/DL</td>
+      <td class="">NOT ESTAB</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">48921 - ALBUMIN, URINE, RANDOM<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">0.4</td>
+      <td class="">MG/DL</td>
+      <td class="">NOT ESTAB</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="page-break">
+      <td colspan="100%" class="hl7NugSep"></td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">48952 - CALC ALBUMIN/CREAT, RND<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">4</td>
+      <td class="">MG/G</td>
+      <td class=""><30</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> Note:   Albumin/Creatinine ratio reference interval reflects</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">         ADA and NKF guidelines.</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="obrName page-break">
+      <td colspan="6">2834 TSH REFLEX TO FREE T4</td>
+      <td title="Final result; results stored and verified.">F</td>
+    </tr>
+    <tr class="obxRow page-break">
+      <td class="hl7FirstCol" style="padding-left:20px">2834 - TSH REFLEX TO FREE T4<sup class="superScript">1</sup></td>
+      <td class=""></td>
+      <td class="">1.420</td>
+      <td class="">UIU/ML</td>
+      <td class="">0.400-4.100</td>
+      <td class="" title="">
+      </td>
+      <td class="" title="Final result">F</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px"> </td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">              UNLESS OTHERWISE INDICATED, ALL TESTING PERFORMED AT</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">       CLINICAL PATHOLOGY LABORATORIES, INC.  9200 WALL ST AUSTIN, TX 78754</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">                 LABORATORY DIRECTOR:  CHRISTINE BURGESS, M.D.</td>
+    </tr>
+    <tr class="obrSpec page-break">
+      <td colspan="100%" class="hl7NoteRow" style="padding-left:20px">            CLIA NUMBER 45D0505003  CAP ACCREDITATION NO. 21525-01</td>
+    </tr>
+  </table>
+  <div class="flagsLegend">
+    <div class="hl7NugSep"> </div>
+    <div class="flags"><span class="flag">H = Above high normal</span></div>
+    <div class="hl7NugSep"> </div>
+  </div>
+  <div class="labTable">
+    <table class="hl7LabInfo" width="100%" border="0" cellspacing="0" cellpadding="0">
+      <div class="labHeader">Performing Laboratory:</div>
+      <tr class="page-break">
+        <td><sup class="superScript">1</sup><div>MAIN</div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div><script type="text/javascript" language="javascript">
+			
+				document.onclick = function () {
+					if (parent.EditApplication)
+					{
+						if (parent.EditApplication.onViewerWindowClick)
+							parent.EditApplication.onViewerWindowClick();
+					}
+					else if (parent.DocViewMain) 
+					{
+						if (parent.DocViewMain.onViewerWindowClick) 
+							parent.DocViewMain.onViewerWindowClick();
+					}
+				};
+
+				window.onload = function() {
+					if (parent.DocViewMain) 
+					{
+						if (parent.DocViewMain.onViewerWindowLoad) 
+							parent.DocViewMain.onViewerWindowLoad();
+					}
+				}
+				
+				var maxWidth = 0;
+				var maxHeight = 0;
+				if (maxWidth > 0 && maxHeight > 0)
+				{
+					document.querySelector('.hl7tableWrapper').style.width = maxWidth +'px';
+						
+					var maxY = maxHeight;
+					var idrand = 0;
+
+					var rows = document.querySelectorAll('.page-break');
+					for (var i = 0; i !== rows.length; ++i)
+					{
+						var row = rows[i];
+						var offsetTop = 0;
+						var offsetParent = row;
+						while (offsetParent)
+						{
+							offsetTop += offsetParent.offsetTop;
+							offsetParent = offsetParent.offsetParent;
+						}
+
+						if ((offsetTop + row.clientHeight) > maxY)
+						{
+							var diff = maxY - offsetTop;
+							var id = row.id || (row.id = 'anonymous_element_'+ idrand++);
+							var cells = document.querySelectorAll('#'+ id +' td');
+							for (var c = 0; c !== cells.length; ++c)
+							{
+								cells[c].style.paddingTop = (diff + parseInt(window.getComputedStyle(cells[c], null).getPropertyValue('padding-top'), 10)) +'px';
+							}
+							
+							maxY += maxHeight;
+						}
+					}
+				}
+			
+		</script>

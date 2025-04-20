@@ -1,0 +1,61 @@
+---
+DrugClass: "[[Immunostimulants and Immunomodulators]]"
+SubClass: "[[Interferons]]"
+DrugClassAdverse: "[[Interferons#Adverse Reactions]]"
+DrugClassContra: "[[Interferons#Contraindications]]"
+BrandName: Aranesp
+SecondaryDrugClass: 
+SecondarySubClass: 
+SecondaryAdverse: 
+SecondaryContra: 
+ThirdDrugClass: 
+ThirdSubClass: 
+ThirdAdverse: 
+ThirdContra: 
+FourthDrugClass: 
+FourthSubClass: 
+FourthAdverse: 
+FourthContra: 
+Chapter: "47"
+KindleLinkChap: "[Chapter 47](kindle://book?action=open&asin=B09FRF11YJ&location=27339)"
+KindleLink: 
+tags:
+  - Drug
+  - Pharmacology
+Course: Pharmacology
+ChemLink: https://pubchem.ncbi.nlm.nih.gov/#query=
+aliases: 
+SubCat: Hematopoietic Factors for Anemia
+---
+```smiles
+
+```
+
+### Brand name
+`=this.BrandName`
+
+### Generic name
+`= this.file.name`
+
+### Drug class 
+`= this.DrugClass`
+	`= this.DrugClass.KindleLinkChap`
+
+### Dosage & Usage
+Anemia associated with [[CKD]] and nonmyeloid cancers
+Titrated to hemoglobin (Hb) level 
+
+### Contraindications
+See `= this.DrugClassContra`
+
+### Mechanisms of Action
+
+
+### Side/Adverse Effects
+See `= this.DrugClassAdverse`
+Hypertension, hypotension, headache, diarrhea, vomiting, nausea, [[myalgia]], [[arthralgia]], cardiac arrhythmias, cardiac arrest 
+
+### Interactions
+
+`= this.ChemLink+this.file.name`
+

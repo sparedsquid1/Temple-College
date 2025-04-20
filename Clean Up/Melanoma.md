@@ -1,0 +1,1 @@
+**Melanoma** is a type of cancer that develops in the melanocytes, the cells responsible for producing the pigment melanin, which gives skin its color. Melanoma is the most serious form of skin cancer and can spread to other parts of the body if not detected and treated early.

@@ -1,0 +1,1 @@
+Glycosuria is ==a condition where there's more glucose than normal in your urine==. It can be a symptom of diabetes or other conditions that affect the kidneys or [[Blood]] sugar levels

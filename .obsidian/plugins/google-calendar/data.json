@@ -1,0 +1,99 @@
+{
+  "googleClientId": "369190269526-bv6t2134vsteapt62ssbpoakbol9h253.apps.googleusercontent.com",
+  "googleClientSecret": "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",
+  "googleRefreshToken": "",
+  "useCustomClient": true,
+  "googleOAuthServer": "https://obsidian-google-calendar.vercel.app",
+  "refreshInterval": 10,
+  "useNotification": true,
+  "showNotice": true,
+  "autoCreateEventNotes": true,
+  "autoCreateEventNotesMarker": "obsidian",
+  "ignorePatternList": [],
+  "autoCreateEventKeepOpen": false,
+  "importStartOffset": 1,
+  "importEndOffset": 1,
+  "optionalNotePrefix": "",
+  "eventNoteNameFormat": "{{prefix}}{{event-title}}",
+  "defaultCalendar": "pbriery@gmail.com",
+  "calendarBlackList": [
+    [
+      "slq7ras68mdpl95egq6iva2ft6hpinke@import.calendar.google.com",
+      "The Home Family - Cozi"
+    ]
+  ],
+  "insertTemplates": [],
+  "useDefaultTemplate": false,
+  "defaultTemplate": "",
+  "activateDailyNoteAddon": true,
+  "dailyNoteDotColor": "#6aa1d8",
+  "useWeeklyNotes": true,
+  "debugMode": false,
+  "timelineHourFormat": 0,
+  "atAnnotationEnabled": true,
+  "usDateFormat": true,
+  "viewSettings": {
+    "day": {
+      "type": "day",
+      "exclude": [],
+      "include": [],
+      "hourRange": [
+        0,
+        24
+      ],
+      "offset": 0,
+      "timespan": 1,
+      "showAllDay": true,
+      "navigation": true
+    },
+    "week": {
+      "type": "week",
+      "exclude": [],
+      "include": [],
+      "hourRange": [
+        0,
+        24
+      ],
+      "offset": 0,
+      "timespan": 5,
+      "showAllDay": true,
+      "navigation": true
+    },
+    "schedule": {
+      "type": "schedule",
+      "exclude": [],
+      "include": [],
+      "hourRange": [
+        0,
+        24
+      ],
+      "offset": 0,
+      "timespan": 7,
+      "showAllDay": true,
+      "navigation": true
+    },
+    "month": {
+      "type": "month",
+      "exclude": [],
+      "include": [],
+      "offset": 0
+    },
+    "year": {
+      "type": "year",
+      "exclude": [],
+      "include": [],
+      "offset": 0,
+      "size": 15
+    },
+    "web": {
+      "type": "web",
+      "theme": "auto",
+      "view": "day",
+      "offset": 0,
+      "width": -1,
+      "height": 500
+    }
+  },
+  "timelineHeight": 750,
+  "timelineWidth": 200
+}

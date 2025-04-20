@@ -1,0 +1,1 @@
+**Carcinoma** is a type of cancer that begins in the epithelial cells, which line the inside and outside surfaces of the body, such as the skin or the lining of internal organs. It is the most common type of cancer and can occur in various parts of the body.

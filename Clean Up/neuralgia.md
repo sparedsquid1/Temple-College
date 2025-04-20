@@ -1,0 +1,1 @@
+- Neuralgia is a sharp, stabbing pain that follows the path of a nerve and is caused by irritation or damage to the nerve.

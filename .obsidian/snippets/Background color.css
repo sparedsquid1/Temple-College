@@ -1,0 +1,27 @@
+/* To change background color */
+
+[
+alt
+~="bg-blue"]  body {
+  color: blue;
+  border: 10px solid currentcolor;
+  padding: 15px; ;
+}
+
+[
+alt
+~="vid-10"] video {
+  width: 10%;
+}
+
+[
+alt
+~="vid-20"] video {
+  width: 20%;
+}
+
+[
+alt
+~="vid-40"] video {
+  width: 40%;
+}

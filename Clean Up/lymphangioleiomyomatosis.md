@@ -1,0 +1,9 @@
+Lymphangioleiomyomatosis (LAM) is a rare, progressive lung disease that primarily affects women, usually during their childbearing years. It is characterized by the abnormal growth of smooth muscle-like cells, which can invade tissues such as the lungs, [[Lymphatic system]], and kidneys. This cell growth can cause cysts in the lungs, leading to breathing difficulties, and can also block lymphatic vessels, causing fluid buildup (lymphangioleiomyomas).
+
+### Key Points about LAM:
+- **Symptoms:** The most common symptoms include shortness of breath, chest pain, and cough. Over time, the disease can lead to more severe [[Respiratory]] issues, such as pneumothorax (collapsed lung) and decreased lung function.
+- **Diagnosis:** LAM is diagnosed through imaging techniques like high-resolution CT scans, lung function tests, and sometimes lung biopsy. [[Blood]] tests for specific biomarkers like VEGF-D (vascular endothelial growth factor-D) can also aid in diagnosis.
+- **Treatment:** While there's no cure for LAM, treatments focus on managing symptoms and slowing the disease's progression. This includes medications like [[sirolimus]] (rapamycin) to inhibit abnormal cell growth, [[Bronchodilators]] for breathing difficulties, and procedures to manage complications like pleurodesis for recurrent pneumothorax.
+- **Prognosis:** The progression of LAM varies widely among patients. Some women experience slow progression and can manage their symptoms for many years, while others may experience a more rapid decline in lung function.
+
+LAM can sometimes be associated with tuberous sclerosis complex (TSC), a genetic disorder that causes benign tumors in various organs. In such cases, it is referred to as TSC-LAM.

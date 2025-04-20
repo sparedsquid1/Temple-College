@@ -1,0 +1,52 @@
+---
+event-id: 7hh0o95c2nc879n5phrskcot9g
+---
+![[VS and Assessment practice.mp4|vid-20]]
+Tips:
+- write on paper:
+	- [[acute lymphoblastic leukemia]] VS (Temp, pulse, RR, BP, O2, Pain scale)
+	- Allergies
+	- pt initials
+	- DOB
+	- Orient QA
+		- name
+		- dob
+		- location
+		- how did you get here
+		- what month
+	- Gen 
+		- clean?
+		- sym?
+		- nourished?
+	- Eyes
+		- scelara
+		- perrla
+		- conjuctiva
+	- Ears
+		- drainage?
+		- clear?
+	- Nose
+		- drainage?
+		- clear?
+	- [[Mouth]]
+		- [[Teeth]]
+		- gums
+		- [[Tongue]]
+		- intact?
+	- Chest
+		- lungs 4x4x2
+		- [[Heart]] a p t m
+		- intact?
+	- Abdomen
+		- intact?
+		- listen RLQ RUQ LUQ LLQ
+	- Arms
+		- pulses equal?
+		- strength?
+		- refills
+	- Legs
+		- pulses equal
+		- strength?
+		- refills
+		- edema
+		- numbness tingle?

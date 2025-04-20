@@ -1,0 +1,3 @@
+**Definition of Hypomania:**
+
+Hypomania is a mild to moderate form of [[Mania]], characterized by elevated mood, increased energy and activity levels, and decreased need for sleep. It is often accompanied by grandiose ideas, increased talkativeness, and a sense of euphoria or excitement. While it can be distressing for the individual experiencing it, hypomania is generally not severe enough to interfere with daily functioning or relationships.

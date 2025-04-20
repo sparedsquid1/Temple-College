@@ -1,0 +1,1 @@
+**Sarcoma** is a type of cancer that originates in the connective tissues of the body, such as bones, muscles, fat, cartilage, or [[Blood]] vessels. Unlike carcinomas, which arise from epithelial cells, sarcomas are less common and tend to be more aggressive.
